@@ -1,0 +1,14 @@
+@use "variaveis";
+* {
+  margin: 0;
+  padding: 5px;
+  box-sizing: border-box;
+}
+body {
+  background-color: variaveis.$colorBackground;
+}
+
+h1 {
+  color: variaveis.$colorH1;
+  text-align: center;
+}
